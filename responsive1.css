@@ -1,0 +1,263 @@
+@media (max-width: 1500px) and (min-width: 1200px)
+{
+    .box1 {
+        background-color: rgb(22, 202, 31);
+        /* width: 275px; */
+        justify-content: space-between;
+    }
+    .box-content{
+        width: ;
+    }
+    .book1 img{
+        /* margin-top: 8px ; */
+        margin: 8px 0;
+        height: 200px;
+        width: 100%;
+    }
+    .box-content{
+        display: flex;
+        flex-flow: wrap;
+    }
+    .dvd1 img{
+
+    }
+    .for-flex2{
+        display: flex;
+        flex-flow: wrap;
+    }
+    .for-width{
+        width: 23%;
+    }
+    .books-container{
+
+    }
+    .dvd-container{
+
+    }
+    .slider{
+        width: 23.4%;
+    }
+    .books{
+        width: 10.6%;
+    }
+    .dvd{
+        width: 10.6%;
+    }
+    .dvd1{
+
+    }
+    .dvd1 img{
+        width: 100%;
+    }
+}
+@media (max-width: 1200px) and (min-width: 1040px)
+{
+
+    .box1 {
+        background-color: rgb(158, 197, 17);
+        /* width: 275px; */
+        justify-content: space-between;
+    }
+    .box-content{
+        width: ;
+    }
+    .book1 img{
+        /* margin-top: 8px ; */
+        margin: 8px 0;
+        height: 200px;
+        width: 100%;
+    }
+    .box-content{
+        display: flex;
+        flex-flow: wrap;
+    }
+    .dvd1 img{
+
+    }
+    .for-flex2{
+        display: flex;
+        flex-flow: wrap;
+    }
+    .for-width{
+        width: 22.6%;
+    }
+    .books-container{
+
+    }
+    .dvd-container{
+
+    }
+    .slider{
+        width: 22.8%;
+    }
+    .box-img1 img{
+        width: 200px;
+        
+    }
+    .f-b-h img{
+        height: 280px;
+    }
+    .books{
+        width: 10.3%;
+    }
+    .dvd{
+        width: 10.3%;
+    }
+    .dvd1{
+
+    }
+    .dvd1 img{
+        width: 100%;
+    }
+}
+@media (max-width: 999px) and (min-width: 786px)
+{
+
+    .box1 {
+        padding-top: 4px;
+        background-color: rgb(134, 16, 89);
+        /* width: 275px; */
+        height: 230px;;
+        justify-content: space-between;
+    }
+    .headings{
+        font-size: 21px
+        
+    
+    }
+    
+    .box-content{
+        width: ;
+    }
+    .box-img{
+        height: 78%;
+        margin: 4px 8px 0px 8px;
+    }
+    .book1 img{
+        /* margin-top: 8px ; */
+        margin: 8px 0;
+        height: 200px;
+        width: 100%;
+    }
+    .box-content{
+        display: flex;
+        flex-flow: wrap;
+    }
+    .dvd1 img{
+
+    }
+    .for-flex2{
+        display: flex;
+        flex-flow: wrap;
+    }
+    .for-width{
+        width: 21.7%;
+    }
+    .f-w{
+        height: 155px;
+
+    }
+    .box-img2{
+        margin-bottom: 2px;
+    }
+    .ht-1{
+        
+        height: 146px;
+    }
+    .dvd-container{
+
+    }
+    .slider{
+        width: 30.4%;
+        height: 255px;
+    }
+    .headings-slider{
+        font-size: 20px;
+    margin-top: 4px;
+    padding-bottom: 4px;
+    }
+    .box-img1 img{
+        height: 200px;
+    padding: 0px 10px 0px 10px;
+    width: -webkit-fill-available;
+        
+    }
+    .f-b-h img{
+        height: 194px;
+    }
+    .books{
+        width: 17.3%;
+    }
+    .dvd{
+        width: 17.1%;
+    }
+    .dvd1{
+
+    }
+    .dvd1 img{
+        width: 100%;
+    }
+    .books-container{
+        height: 510px;
+    }
+    .dvd-container{
+        height: 512px;
+    }
+}
+
+@media (Max-width: 786px) and (min-width: 530px){
+    .nav-logo {
+        height: 50px;
+        width: 80px;
+    }
+
+
+.nav-search {
+    display: flex;
+    background-color: pink;
+    width: 300px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+.box1 {
+    background-color: red;
+    width: 260px;
+    justify-content: space-between;
+}
+/* }
+.box-img {
+    height: 360px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+} */
+.box-a-link {
+    padding-left: 80px;
+    font-size: large;
+    font-weight: 900;
+}
+.books-container {
+    height: 520px;
+   
+}
+.dvd-container {
+    height: 525px;
+
+}
+.slider {
+    width: 30%;
+}
+.box-img1 img {
+    width: 200px;
+}
+res-img1 {
+    height: 270px;
+}
+.slider-main{
+  display: flex;
+  flex-flow: wrap;
+  width: 100%;
+}
+}

@@ -1,0 +1,28 @@
+@media (max-width: 2560px)
+{
+    /* hero section */
+.hero-section {
+    background-image: url(images/hero_image.jpg);
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg {
+    background-color: rgb(221, 11, 11);
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin-bottom: 35px;
+}
+
+
+
+
+
+
+}
