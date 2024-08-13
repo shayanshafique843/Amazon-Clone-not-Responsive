@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    border: border-box;
+}
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+.logo {
+    background-image: url(images/amazon_logo.png);
+    height: 50px;
+    width: 95px;
+    background-size: contain;
+
+}
+.border {
+    border: 2px solid transparent;
+}
+.border:hover {
+    border: 1px solid white;
+    align-items: center;
+}
+.nav-address{
+    color: white;
+}
+/* box2 */
+.add-first{
+    color: #cccccc;
+    font-size: 0.82;
+    margin-left: 15px;
+}
+.add-second{
+    color: white;
+    margin-left: 5px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.flag{
+    width: 3vh;
+}
+.fa-regular{
+    width: 50px;
+}
+.fa-magnifying-glass{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #f3f3f3;
+    
+}
+/* box3 */
+.nav-search{
+    display: flex;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+.nav-search select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+input{
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+}
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0f1111;
+}
+.nav-search:hover {
+    border: 2px solid orange;
+}
+/* box4 */
+span {
+    font-size: 0.79rem;
+}
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/* box6 */
+/* .nav-cart i {
+    font-size: 30px;
+
+} */
+.nav-cart {
+    font-size: 20px;
+
+}
+/* panel here */
+.panel{
+    height: 40px;
+    background-color: rgb(54, 45, 87);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 10px;
+}
+.panel-ops {
+    width: 73%;
+    font-size: 0.85rem;
+}
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/* hero section */
+.hero-section {
+    background-image: url(images/hero_image.jpg);
+    height: 350px;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg {
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin-bottom: 35px;
+}
+/* shop section */
+.shop-section {
+    height: 100%;
+    background-color: #aea9a9;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-top: 12px; */
+    /* justify-content: 10px; */
+}
+.box-content{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.box {
+    background-color: white;
+    height: 400px;
+    width: 18.7%;
+    /* border: 2px solid black; */
+    margin-bottom: 17px;
+    padding-top: 10px;
+    margin-right: 24px;
+    position: relative;
+
+    bottom: 25px;
+    left: 15px;
+
+
+}
+.box-img {
+    height: 80%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    
+}
+.box-img2 {
+    height: 73%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    padding-left: 8px;
+
+    
+}
+.headings {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    padding-bottom: 10px; 
+   padding-left: 8px;
+}
+.box-a-link {
+    display: flex;
+    justify-content: center;
+    /* padding-left: 115px; */
+    font-size: large;
+    font-weight: 900;
+
+}
+
+
+.box-a-link:hover {
+    zoom: 1.009;
+    text-decoration-line:underline;
+    
+}
+/* .books-container*/
+.books-container{
+    height: 280px;
+    width: 100%;
+    background-color: white;
+    /* border: 2px solid red; */
+    display: flex;
+    margin: 0 16px;
+
+}
+.book-title{
+        display: flex;
+
+    /* border: 2px solid rgb(44, 107, 126); */
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.for-flex{
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+    gap: 24px;
+
+}
+.books-box {
+
+    /* border: 2px solid rgb(80, 40, 2); */
+    /* background-color: rgb(59, 46, 4); */
+    height: 250px;
+    width: 100%;
+    /* padding: 10px 20px; */
+    margin: 10px 20px;
+
+}
+.book1 img{
+    /* margin-top: 8px ; */
+    margin: 8px 0;
+    height: 200px;
+    width: 132px;
+}
+/* famous dvd section start here */
+ .dvd-container{
+    height: 280px;
+    width: 100%;
+    background-color: white;
+    /* border: 2px solid red; */
+    display: flex;
+
+    margin: 15px 16px ;
+
+}
+.dvd-box {
+
+    /* border: 2px solid rgb(80, 40, 2); */
+    /* background-color: rgb(59, 46, 4); */
+    height: 250px;
+    width: 100%;
+    /* padding: 10px 20px; */
+    margin: 10px 20px;
+
+}
+.dvd-title{
+    display: flex;
+
+/* border: 2px solid rgb(44, 107, 126); */
+font-size: 20px;
+font-weight: 600;
+
+}
+.for-flex1{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    gap: 24px;
+
+}
+.dvd1 img{
+    /* margin-top: 8px ; */
+    margin: 8px 0;
+    height: 200px;
+    width: 132px;
+} 
+/* slider section start here */
+
+.slider {
+    height: 387px;
+    width: 300px;
+    /* border: 2px solid black; */
+   margin: 0px 4px 14px 15px;
+   background-color: white;
+} 
+.slider-main{
+    display: flex;
+    flex-flow: wrap;
+}
+.box-img1 img {
+    /* display: cover; */
+    height: 310px;
+    width: 258px;
+  padding: 0 20px;
+}
+.headings-slider {
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif
+    font-weight: 700;
+    padding-bottom: 10px; 
+   padding-left: 22px;   
+   margin-top: 8px;
+}
+.divider {
+    height: 13px;
+    width: 100%;
+    background-color: white;
+}
+.back-to-top {
+    
+    display: block;
+    border-bottom: 1px solid white;
+    background-color: rgb(6, 6, 65);
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 15px 0px;
+    justify-content: center;
+}
+/* footer section start here */
+.footer {
+    height: 600px;
+    width: 100%;
+    background-color: rgb(5, 5, 64);
+    color: white;
+    
+}
+ul li p {
+    color: rgb(249, 245, 245);
+    padding-bottom: 10px;
+}
+ul li a {
+    color: rgb(247, 245, 245);
+    display: flex;
+    padding-bottom: 10px;
+    /* background-color: #cccccc; */
+    text-decoration: none;
+}
+.inner-footer {
+    background-color: rgb(5, 5, 64);
+    display: flex;
+    height: 600px;
+    margin-left: 35px;
+    margin-right: 25px; 
+}
+.section {
+    /* border: 2px solid rgb(194, 240, 11); */
+    display: inline-block;
+    margin-top: 35px;
+   margin-left: 70px;
+    
+}
+.section ul{
+    list-style-type: none;
+}
+.section>ul>li>p{
+    text-align: left;
+    font-size: 20px;
+}
+.footer-details {
+    height: 60px;
+    width: 100%;
+    padding-top: 10px;
+    background-color: rgb(2, 2, 52);
+    color: white;
+    
+}
+.details a {
+    text-decoration: none;
+    margin-left: 13px;
+    color: white;
+}
+.details {
+    align-content: center;
+    text-align: center;
+    
+}
+.details a:hover {
+    text-decoration:underline;
+    font-size: 19px;
+}
+.dts{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}

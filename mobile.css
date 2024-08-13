@@ -1,0 +1,79 @@
+@media (max-width: 425px)
+{   header{
+    width: 643px;
+    }
+    .hero-section{
+        width: 643px;
+    }
+    .shop-section{
+        width: 643px;
+    }
+    .footer{
+        width: 643px;
+    }
+    .footer-details{
+        width: 643px;
+    }
+    .headings{
+        font-size: 20px;
+
+    }
+    .box-img{
+        height: 74%;
+    }
+    .f-w{
+        height: 66%;
+    }
+    .ht-1{
+        height: 65%;
+    }
+    .books{
+        width: 30%;
+    }
+    .books-container{
+        height: 760px;
+    }
+    .dvd-container{
+        height: 760px;
+    }
+    .dvd{
+        width: 30%;
+    }
+    .dvd img{
+        width: 100%;
+    }
+    .slider{
+        width: 29.8%;
+        height: 263px;
+
+    }
+    .img1 {
+        height: 2px;
+    }
+    .slider img{
+        width: 80%;
+        height: 204px;
+    }
+    .headings-slider{
+        font-size: 22px;
+        padding-bottom: 2px;
+        margin-top: 2px;
+    }
+    .book1 img{
+        width: 100%;
+    }
+    .box{
+        height: 250px;
+        width: 29%;
+
+    }
+    .box-content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .for-flex{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
